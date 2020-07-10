@@ -1,33 +1,74 @@
-*{
-    border: 2px solid black;
-}
+
 
 body.home {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    height: 100vh;
+    height: 1200px;
     margin: 0;
-    background-image: url("https://m.media-amazon.com/images/M/MV5BYmZjNmExZTEtZWU2My00ZGRjLTg2YzMtYmZjYWE0NTNlZTVjL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTE3NTY3NzE@._V1_.jpg")
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/81VewqjS+vL._RI_.jpg")
 
 }
-div :hover{
+/* div{
+  height: 1200px;
+  
+  
+  
+  color: transparent;
+  text-decoration: none;
+
+}
+a{
+  text-decoration: none;
+}
+
+
+div:hover{
+  position: absolute;
+  display: flex;
+  justify-content: center; 
+  
+}*/
+
+.section1:hover{
 
     display: flex;
     justify-content: center;
-    background-color: grey;
-    opacity: 0.5;
+    background-color:black;
+    opacity: 0.8;
     align-items: flex-end;
-    margin: 15px;
+    
 
 }
 
-body.main {
+
+.section2:hover{
+
+  display: flex;
+  justify-content: center;
+  background-color:black;
+  opacity: 0.8;
+  align-items: flex-end;
+  
+
+}
+.section3:hover{
+
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.8;
+  align-items: flex-end;
+  
+
+}
+
+ body.main {
   display: grid;
-  grid-template-rows: 20% 10% 1fr;
+  grid-template-rows: 30% 10% 1fr;
   height: 100vh;
   margin: 0;
 }
-
+/*
 header {
   background-image: url("https://i.imgur.com/1ChZ4jY.jpg");
   background-position: center;
@@ -54,8 +95,9 @@ nav a:hover {
 main {
   background-color: #CCCCCC;
 }
+ */
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-}
+} 
